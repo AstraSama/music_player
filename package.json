@@ -1,0 +1,32 @@
+{
+  "name": "music_player",
+  "version": "1.0.0",
+  "description": "um player de música",
+  "main": "src/http/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Enprror: no test specified\" && exit 1",
+    "dev": "nodemon ./src/http/index.js",
+    "start": "node ./src/http/index.js",
+    "build": "npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AstraSama/music_player.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AstraSama/music_player/issues"
+  },
+  "homepage": "https://github.com/AstraSama/music_player#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
